@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import { Shield, Clock, Award, TrendingUp, Building, Users } from 'lucide-react';
 
 interface StatProps {
