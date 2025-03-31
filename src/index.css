@@ -24,6 +24,8 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222 89% 51%;
     --radius: 0.75rem;
+    --font-playfair: 'Playfair Display', serif;
+    --font-source: 'Source Sans 3', sans-serif;
   }
 
   .dark {
@@ -46,11 +48,35 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
+    --font-playfair: 'Playfair Display', serif;
+    --font-source: 'Source Sans 3', sans-serif;
   }
 
   * {
     @apply border-border;
   }
+
+  
+  /* Serif for headings */
+  h1, h2, h3, h4 {
+    font-family: var(--font-playfair);
+    @apply font-bold;
+    letter-spacing: -0.015em;
+  }
+
+  /* Sans-serif for body */
+  body {
+    font-family: var(--font-source);
+    @apply font-light; /* 300 weight for elegance */
+    line-height: 1.6;
+  }
+
+  /* Special decorative elements */
+  .font-decorative {
+    font-family: var(--font-playfair);
+    @apply italic font-medium;
+  }
+  
   body {
     @apply bg-background text-foreground;
   }

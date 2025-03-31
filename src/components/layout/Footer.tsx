@@ -66,14 +66,7 @@ const Footer: React.FC = () => {
                 <Mail className="w-5 h-5 mr-3 text-blue-400" />
                 <span className="text-gray-400">contact@hotelops.com</span>
               </div>
-              <div className="flex items-center">
-                <Phone className="w-5 h-5 mr-3 text-blue-400" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center">
-                <MapPin className="w-5 h-5 mr-3 text-blue-400" />
-                <span className="text-gray-400">123 Hotel Street, SF, CA 94105</span>
-              </div>
+             
             </div>
           </div>
 

@@ -15,7 +15,7 @@ export default function Home() {
       <PricingSection/>
       <CTADemoSection/>
       <WhyChooseUs/> 
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Footer/>
     </main>
   );
